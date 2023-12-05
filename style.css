@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 98vh;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+header {
+  margin: 20px auto;
+  padding: 20px;
+  height: auto;
+  width: 95vw;
+  font-size: 24px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 0 5px 8px rgb(38, 42, 43);
+  align-items: center;
+}
+
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  height: auto;
+  width: 95vw;
+  background-color: rgb(255, 196, 0);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(34, 111, 133, 0.1);
+}
+
+.cont {
+  display: flex;
+  margin: 20px auto;
+  padding: 20px;
+  height: 100%;
+  background-color: rgba(26, 25, 25, 0.945);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+.cont .container-all {
+  margin: 20px auto;
+  padding: 20px;
+  height: 450px;
+  width: 50vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgb(34, 111, 133);
+  overflow: auto;
+}
+.cont .container-in {
+  margin: 20px auto;
+  padding: 20px;
+  height: 450px;
+  width: 50vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(34, 111, 133, 0.1);
+  overflow: auto;
+}
+.cont .container-ex {
+  margin: 20px auto;
+  padding: 20px;
+  height: 450px;
+  width: 50vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(34, 111, 133, 0.1);
+  overflow: auto;
+}
+
+.cont .container-in div {
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.cont .container-ex div {
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+#balance {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  margin: 4px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(34, 111, 133, 0.1);
+  width: 40%;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(0, 255, 251);
+  color: #000000;
+  border: none;
+  font-weight: 400;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(30, 255, 0);
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(34, 111, 133);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(35, 33, 33);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+li > button {
+  background-color: #e5ff00;
+  color: #252121;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+li > button:hover {
+  background-color: #ff3700fe;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(34, 111, 133);
+}
+
+li > .ty {
+  color: aqua;
+  font-weight: 1400;
+}
+
+.income {
+  color: #00ff08;
+}
+
+.expense {
+  color: #ff0000;
+}
+.footer {
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 3px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 5px 5px 8px rgb(0, 0, 0);
+}
+
+.footer a {
+  color: #211d1d;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.footer a:hover {
+  color: rgb(241, 249, 248);
+  font-size: 18px;
+  background-color: #000000;
+  font-weight: bold;
+  border-radius: 5px;
+  font-style: oblique;
+}
+
+.container-all::-webkit-scrollbar {
+  width: 10px;
+}
+
+.container-all::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.container-all::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 255, 204);
+  outline: 1px solid rgb(0, 0, 0);
+}
+
+.container-in::-webkit-scrollbar {
+  width: 1em;
+}
+
+.container-in::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+}
+
+.container-in::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 255, 204);
+  outline: 1px solid rgb(0, 0, 0);
+}
+
+.container-ex::-webkit-scrollbar {
+  width: 1em;
+}
+
+.container-ex::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.container-ex::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 255, 204);
+  outline: 1px solid rgb(0, 0, 0);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 1400px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: auto !important;
+    padding: 0.5rem;
+    max-height: fit-content!important;
+    min-width: unset ;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  form input[type="text"],
+  input[type="number"],
+  select {
+    margin: 4px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(34, 111, 133, 0.1);
+    width: 90vw;
+    padding: 10px;
+  }
+  .cont {
+    padding: 0.8rem;
+    display: block;
+    font-size: 40px;
+  }
+  .cont .container-all {
+    padding: 1px;
+    width: 100%;
+  }
+  .cont .container-in {
+    width: 100%;
+    padding: 1px;
+  }
+  .cont .container-ex {
+    width: 100%;
+    padding: 1px;
+  }
+  form button{
+    width: 90vw;
+    
+  }
+}
